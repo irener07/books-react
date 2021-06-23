@@ -1,0 +1,40 @@
+.title {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #68a7ee, 0 0 40px #68a7ee,
+    0 0 50px #68a7ee, 0 0 60px #68a7ee, 0 0 70px #68a7ee;
+
+}
+
+.librosGrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap:40px;
+    padding:40px;
+    justify-content: center;
+    -ms-layout-grid-line: 2rem;
+}
+
+.principal {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.buscar{
+    justify-content: center;
+}
+.card{
+    border: rgb(83, 67, 67);
+    border-color: black;
+    border-inline-color: black;
+    border-style: dark;
+}
+
+.media{
+    height: 0;
+    padding-top: '56.25%';
+    margin-top:'30';
+  }
