@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import styles from "./App.module.css";
 import Libros from "./books.json";
@@ -10,7 +9,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import Typography from "@material-ui/core/Typography";
-import { IconButton, CardHeader } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import LinkIcon from "@material-ui/icons/Link";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import Input from '@material-ui/core/Input'
