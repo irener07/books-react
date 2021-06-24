@@ -18,8 +18,8 @@ class App extends Component {
     busqueda: "",
   };
 
+  //Armamos el card con los datos del libro
   renderLibros = (libro) => {
-    
 
     return (
       <Card style={{ width: "250px" }}>
@@ -51,16 +51,20 @@ class App extends Component {
     );
   };
 
+  //Monitorea el input y si hay algún cambio agarra lo que se ha escrito para ponerlo como estado
   onchange = (e) => {
     this.setState({ busqueda: e.target.value });
   };
 
   render() {
+    //definimos las constantes para la busqueda y la lista de libros filtrados
     const { busqueda } = this.state;
     const filteredBooks = Libros.filter((libro) => {
       return libro.title.toLowerCase().indexOf(busqueda.toLowerCase()) !== -1;
     });
 
+    //Estructura de la página principal 
+    //El className me permite darle estilo a cierto segmento en específico
     return (
       <div className={styles.principal}>
         <header>

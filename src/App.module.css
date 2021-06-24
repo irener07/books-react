@@ -1,3 +1,4 @@
+/*Estilos de las secciones*/
 .title {
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,15 +27,4 @@
 .buscar{
     justify-content: center;
 }
-.card{
-    border: rgb(83, 67, 67);
-    border-color: black;
-    border-inline-color: black;
-    border-style: dark;
-}
 
-.media{
-    height: 0;
-    padding-top: '56.25%';
-    margin-top:'30';
-  }
