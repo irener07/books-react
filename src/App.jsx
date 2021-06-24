@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import styles from "./App.module.css";
 import Libros from "./books.json";
-import { useState } from "react";
 import { Card } from "./components/cardComponents/Card";
 import { Component } from "react";
 import CardContent from "@material-ui/core/CardContent";
@@ -20,8 +19,7 @@ class App extends Component {
   };
 
   renderLibros = (libro) => {
-    const { busqueda } = this.state;
-    var code = libro.id;
+    
 
     return (
       <Card style={{ width: "250px" }}>
